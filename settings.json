@@ -1,0 +1,41 @@
+{
+    "files.autoSave": "afterDelay",
+    "window.titleBarStyle": "custom",
+    "editor.mouseWheelZoom": true,
+    "editor.minimap.enabled": false,
+    "code-runner.runInTerminal": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "git.ignoreMissingGitWarning": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmPasteNative": false,
+    "editor.fontFamily": "'Cascadia Code NF', 'Fira Code', 'Droid Sans Fallback', monospace",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.smoothScrolling": true,
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.5,
+    "editor.letterSpacing": 0.6,
+    // "editor.lineNumbers": "off",
+    "workbench.editorAssociations": {
+        "*.dat": "default"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.formatOnSave": true,
+    // "workbench.colorCustomizations": {
+    //     "terminal.integrated.fontFamily": "'CascadiaCodeNF','Consolas', 'Courier New', monospace",
+    //     // "terminal.foreground": "#90EE90",
+    //     "terminal.background": "#011627",
+    // },
+    "workbench.colorTheme": "Tokyo Night Dark",
+    "editor.cursorBlinking": "expand",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.location": "hidden",
+    // "workbench.editor.showTabs": "none",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "breadcrumbs.enabled": false
+    // "editor.colorDecorators": false,
+
+}

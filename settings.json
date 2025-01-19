@@ -10,32 +10,79 @@
     "git.ignoreMissingGitWarning": true,
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmPasteNative": false,
+    // Editor Settings
     "editor.fontFamily": "'Cascadia Code NF', 'Fira Code', 'Droid Sans Fallback', monospace",
     "editor.bracketPairColorization.enabled": true,
     "editor.smoothScrolling": true,
     "editor.fontSize": 14,
     "editor.lineHeight": 1.5,
     "editor.letterSpacing": 0.6,
+    "editor.cursorBlinking": "expand",
+    "editor.tokenColorCustomizations": {
+        "[Tokyo Night Dark]": {
+            "comments": "#11e823"
+        }
+    },
     // "editor.lineNumbers": "off",
     "workbench.editorAssociations": {
         "*.dat": "default"
     },
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.formatOnSave": true,
-    // "workbench.colorCustomizations": {
-    //     "terminal.integrated.fontFamily": "'CascadiaCodeNF','Consolas', 'Courier New', monospace",
-    //     // "terminal.foreground": "#90EE90",
-    //     "terminal.background": "#011627",
-    // },
-    "workbench.colorTheme": "Tokyo Night Dark",
-    "editor.cursorBlinking": "expand",
+    // Customizing the terminal
+    "terminal.integrated.fontFamily": "'JetBrains Mono Medium','Consolas', 'Courier New', monospace",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.letterSpacing": 1.6,
+    "terminal.integrated.lineHeight": 1.1,
+    // "terminal.integrated.fontWeight": 500,
+    "terminal.integrated.fontWeightBold": 500,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorWidth": 2,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyleInactive": "underline",
+    "terminal.integrated.tabs.hideCondition": "singleGroup",
+    // Colors configuration
+    "workbench.colorCustomizations": {
+        // Terminal Colors
+        // "terminal.foreground": "#00fbfff1",
+        // "terminal.background": "#010000",
+        "terminal.border": "#01f326",
+        "terminal.ansiBrightRed": "#ff0000",
+        "terminal.ansiBrightYellow": "#fdd700",
+        "terminal.ansiGreen": "#00ff62f3",
+        "terminalCursor.foreground": "#09e23f",
+        // SideBar, TitleBar and Tabs Colors
+        "sideBar.border": "#01f326",
+        "sideBar.foreground": "#a69d9d",
+        "scrollbarSlider.background": "#1b191973",
+        "statusBar.border": "#01f326",
+        "titleBar.border": "#01f326",
+        "sideBarTitle.border": "#01f326",
+        "sideBarTitle.foreground": "#01f326",
+        "tab.activeForeground": "#ffffff",
+        "tab.activeBorder": "#01f326",
+        "sideBySideEditor.verticalBorder": "#01f326",
+        "sideBySideEditor.horizontalBorder": "#01f326",
+        "scrollbarSlider.hoverBackground": "#312d2d",
+        "scrollbarSlider.activeBackground": "#312d2d",
+        // Panel Colors 
+        "panel.border": "#01f326",
+        // "panelTitle.border": "#01f326",
+        // "panel.background": "#000000",
+        "panelTitle.activeForeground": "#01f325",
+        "panelTitle.activeBorder": "#01f325",
+        // Activity Bar
+        "activityBar.border": "#01f325"
+    },
     "workbench.iconTheme": "vscode-icons",
-    "workbench.statusBar.visible": false,
-    "workbench.activityBar.location": "hidden",
     // "workbench.editor.showTabs": "none",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
-    "breadcrumbs.enabled": false
+    "breadcrumbs.enabled": false,
+    "workbench.statusBar.visible": false,
+    "workbench.sideBar.location": "right",
+    "window.commandCenter": false,
+    "workbench.colorTheme": "Dark Magic Tokyo",
+    "workbench.activityBar.location": "hidden"
     // "editor.colorDecorators": false,
-
 }

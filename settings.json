@@ -20,8 +20,8 @@
     "editor.cursorBlinking": "expand",
     "editor.tokenColorCustomizations": {
         "[Tokyo Night Dark]": {
-            "comments": "#11e823"
-        }
+            "comments": "#11e823",
+        },
     },
     // "editor.lineNumbers": "off",
     "workbench.editorAssociations": {
@@ -46,7 +46,7 @@
         // Terminal Colors
         // "terminal.foreground": "#00fbfff1",
         // "terminal.background": "#010000",
-        "terminal.border": "#01f326",
+        // "terminal.border": "#01f326",
         "terminal.ansiBrightRed": "#ff0000",
         "terminal.ansiBrightYellow": "#fdd700",
         "terminal.ansiGreen": "#00ff62f3",
@@ -76,13 +76,20 @@
     },
     "workbench.iconTheme": "vscode-icons",
     // "workbench.editor.showTabs": "none",
-    "files.insertFinalNewline": true,
+    // "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
-    "breadcrumbs.enabled": false,
-    "workbench.statusBar.visible": false,
-    "workbench.sideBar.location": "right",
     "window.commandCenter": false,
     "workbench.colorTheme": "Dark Magic Tokyo",
-    "workbench.activityBar.location": "hidden"
+    "breadcrumbs.enabled": true,
+    "workbench.sideBar.location": "right",
+    "workbench.statusBar.visible": false,
     // "editor.colorDecorators": false,
+    "files.readonlyInclude": { // Add the following to settings.json to mark Rust library sources as read-only:
+        "**/.cargo/registry/src/**/*.rs": true,
+        "**/.cargo/git/checkouts/**/*.rs": true,
+        "**/lib/rustlib/src/rust/library/**/*.rs": true,
+    },
+    "grunt.autoDetect": "on",
+    "window.menuBarVisibility": "compact",
+    "workbench.activityBar.location": "hidden",
 }

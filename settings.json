@@ -1,9 +1,7 @@
 {
-    "files.autoSave": "afterDelay",
     "window.titleBarStyle": "custom",
     "editor.mouseWheelZoom": true,
     "editor.minimap.enabled": false,
-    "code-runner.runInTerminal": true,
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
     },
@@ -11,7 +9,8 @@
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmPasteNative": false,
     // Editor Settings
-    "editor.fontFamily": "'Cascadia Code NF', 'Fira Code', 'Droid Sans Fallback', monospace",
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', 'Fira Code', 'Droid Sans Fallback', monospace",
+    "editor.fontLigatures": true,
     "editor.bracketPairColorization.enabled": true,
     "editor.smoothScrolling": true,
     "editor.fontSize": 14,
@@ -23,15 +22,16 @@
             "comments": "#11e823",
         },
     },
-    // "editor.lineNumbers": "off",
+    "editor.lineNumbers": "off",
     "workbench.editorAssociations": {
         "*.dat": "default"
     },
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.formatOnSave": true,
     // Customizing the terminal
-    "terminal.integrated.fontFamily": "'JetBrains Mono Medium','Consolas', 'Courier New', monospace",
-    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font','Consolas', 'Courier New', monospace",
+    "terminal.integrated.fontLigatures.enabled": true,
+    "terminal.integrated.fontSize": 15,
     "terminal.integrated.letterSpacing": 1.6,
     "terminal.integrated.lineHeight": 1.1,
     // "terminal.integrated.fontWeight": 500,
@@ -45,7 +45,7 @@
     "workbench.colorCustomizations": {
         // Terminal Colors
         // "terminal.foreground": "#00fbfff1",
-        // "terminal.background": "#010000",
+        "terminal.background": "#0e0d0db0",
         // "terminal.border": "#01f326",
         "terminal.ansiBrightRed": "#ff0000",
         "terminal.ansiBrightYellow": "#fdd700",
@@ -79,7 +79,7 @@
     // "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "window.commandCenter": false,
-    "workbench.colorTheme": "Dark Magic Tokyo",
+    "workbench.colorTheme": "Dark Magic",
     "breadcrumbs.enabled": true,
     "workbench.sideBar.location": "right",
     "workbench.statusBar.visible": false,
@@ -92,4 +92,5 @@
     "grunt.autoDetect": "on",
     "window.menuBarVisibility": "compact",
     "workbench.activityBar.location": "hidden",
+    "files.autoSave": "afterDelay",
 }

@@ -9,8 +9,9 @@
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmPasteNative": false,
     // Editor Settings
-    "editor.fontFamily": "'JetBrainsMono Nerd Font', 'Fira Code', 'Droid Sans Fallback', monospace",
+    "editor.fontFamily": "'CaskaydiaCove Nerd Font Propo', 'Fira Code', 'Droid Sans Fallback', monospace",
     "editor.fontLigatures": true,
+    "editor.fontWeight": "500",
     "editor.bracketPairColorization.enabled": true,
     "editor.smoothScrolling": true,
     "editor.fontSize": 14,
@@ -18,11 +19,30 @@
     "editor.letterSpacing": 0.6,
     "editor.cursorBlinking": "expand",
     "editor.tokenColorCustomizations": {
-        "[Tokyo Night Dark]": {
-            "comments": "#11e823",
-        },
+        "textMateRules": [
+            {
+                "scope": [
+                    "variable",
+                    "keyword",
+                    "storage",
+                    "entity.name.function",
+                    "entity.name.type",
+                    "entity.other.attribute-name",
+                    "string",
+                    "constant",
+                    "meta",
+                    "meta.definition.variable.name",
+                    "support",
+                    "punctuation",
+                    "markup"
+                ],
+                "settings": {
+                    "fontStyle": "italic" // Everything italic
+                }
+            }
+        ]
     },
-    "editor.lineNumbers": "off",
+    "editor.lineNumbers": "on",
     "workbench.editorAssociations": {
         "*.dat": "default"
     },
@@ -34,7 +54,7 @@
     "terminal.integrated.fontSize": 15,
     "terminal.integrated.letterSpacing": 1.6,
     "terminal.integrated.lineHeight": 1.1,
-    // "terminal.integrated.fontWeight": 500,
+    "terminal.integrated.fontWeight": 600,
     "terminal.integrated.fontWeightBold": 500,
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorWidth": 2,
